@@ -17,7 +17,7 @@ from agno.agent import Agent
 from agno.models.google import Gemini
 from agno.tools.exa import ExaTools
 
-os.environ['GEMINI_API_KEY']= 'AIzaSyDfJLNXQHF3sorSqGj1_GJMfinOjTgD4_A'
+os.environ['GEMINI_API_KEY']= 'your api key'
 
 agent = Agent(
     model=Gemini(id="gemini-2.5-flash"))
